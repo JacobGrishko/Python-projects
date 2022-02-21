@@ -13,7 +13,7 @@ Error=0
 def checkInts(base, number):
     intbase = int(base)
     for char in number:
-        if ord(char)<58 and ord(char)>47 or ord(char)<70 and ord(char)>64:
+        if ord(char)<58 and ord(char)>47 or ord(char)<71 and ord(char)>64:
             number = key_list[val_list.index(char)]
         else:
             return Errors[3]
